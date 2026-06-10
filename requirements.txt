@@ -1,0 +1,15 @@
+# DMO-WCSP — dépendances Python
+# Installer : pip install -r requirements.txt
+
+numpy>=1.24,<3.0          # structures de données, calcul des objectifs et métriques
+pymoo>=0.6.0              # baseline NSGA-II et indicateur d'hypervolume (HV)
+ortools>=9.7             # baseline CP-SAT (milp_baseline.py)
+
+# Analyse statistique de campagne (run_campaign.py) :
+scipy>=1.10              # tests de Wilcoxon / Friedman
+scikit-posthocs>=0.7     # post-hoc Nemenyi, diagrammes de distance critique
+pandas>=2.0              # agrégation des résultats
+
+# Figures (publication EJOR) :
+matplotlib>=3.7          # fronts de Pareto, courbes HV, diagrammes CD
+seaborn>=0.13            # boxplots/barplots et palette Set2 (generate_figures.py)

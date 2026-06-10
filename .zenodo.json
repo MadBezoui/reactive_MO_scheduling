@@ -1,0 +1,15 @@
+{
+  "title": "Reproducibility package: Conflict-Weighting Variable Selection for Reactive Multi-Objective Job-Shop and RCPSP Scheduling",
+  "upload_type": "software",
+  "description": "Code, raw results and analysis scripts for the manuscript 'Conflict-Weighting Variable Selection for Reactive Multi-Objective Job-Shop and RCPSP Scheduling: A Controlled Constraint-Programming Study' (submitted to the Journal of Scheduling). Includes the Choco 4.10.14 implementation of the three conflict-weighting increment rules (dom/wdeg2004 scope-sharing, per-variable AbsCon refinement, branching-history augmentation), the epsilon-constraint multi-objective solver, the reactive-snapshot campaign orchestrator with NSGA-II/III baselines, raw campaign CSVs, the controlled search-tree experiment harness and results, and scripts reproducing every table and figure of the paper. See REPRODUCIBILITY.md.",
+  "creators": [
+    {"name": "Ouali, Lillia", "affiliation": "LIMED, University of Bejaia, Algeria"},
+    {"name": "Bezoui, Madani", "affiliation": "LINEACT, CESI, Nancy, France"},
+    {"name": "Amroune, Kamal", "affiliation": "LIMED, University of Bejaia, Algeria"}
+  ],
+  "license": "MIT",
+  "keywords": ["constraint programming", "variable-ordering heuristics", "dom/wdeg", "reactive scheduling", "multi-objective optimisation", "RCPSP", "job-shop scheduling", "Choco solver"],
+  "related_identifiers": [
+    {"relation": "isSupplementTo", "identifier": "[manuscript DOI once published]", "scheme": "doi"}
+  ]
+}
