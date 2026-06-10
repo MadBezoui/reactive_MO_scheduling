@@ -8,8 +8,5 @@
     {"name": "Amroune, Kamal", "affiliation": "LIMED, University of Bejaia, Algeria"}
   ],
   "license": "MIT",
-  "keywords": ["constraint programming", "variable-ordering heuristics", "dom/wdeg", "reactive scheduling", "multi-objective optimisation", "RCPSP", "job-shop scheduling", "Choco solver"],
-  "related_identifiers": [
-    {"relation": "isSupplementTo", "identifier": "[manuscript DOI once published]", "scheme": "doi"}
-  ]
+  "keywords": ["constraint programming", "variable-ordering heuristics", "dom/wdeg", "reactive scheduling", "multi-objective optimisation", "RCPSP", "job-shop scheduling", "Choco solver"]
 }
